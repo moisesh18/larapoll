@@ -1,5 +1,5 @@
 # Larapoll
-A Laravel package to manage your polls
+A Laravel package to manage your polls - Custom
 
 
 ## Installation:
