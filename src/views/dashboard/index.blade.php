@@ -1,10 +1,6 @@
-
-
-pruebas
-
 @extends('larapoll::layouts.app')
 @section('title')
-Polls- Listing
+Polls- Listing test
 @endsection
 @section('style')
 <style>
