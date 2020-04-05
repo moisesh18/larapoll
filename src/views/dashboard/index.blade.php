@@ -1,3 +1,7 @@
+
+
+pruebas
+
 @extends('larapoll::layouts.app')
 @section('title')
 Polls- Listing
