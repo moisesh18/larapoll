@@ -35,6 +35,21 @@ class LarapollServiceProvider extends ServiceProvider
             __DIR__ . '/database/migrations/2019_04_20_145921_schema_changes.php'
             => base_path('database/migrations/2019_04_20_145921_schema_changes.php'),
         ]);
+
+        // views
+        $this->publishes([
+            __DIR__ . '/views'
+            => base_path('resources/views/vendor/larapoll')
+        ]);
+
+        // controllers
+        $this->publishes([
+            __DIR__ . '/Http/Controllers'
+            => base_path('app/Http/Controllers/Larapoll')
+        ]);
+
+
+        
         // load factories
         $this->registerFactories();
         // routes
